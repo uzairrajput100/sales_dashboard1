@@ -4,6 +4,7 @@ import datetime
 import plotly.express as px
 from PIL import Image
 import plotly.graph_objects as go
+import openpyxl
 
 df = pd.read_excel('AdidasSalesdata.xlsx')
 st.set_page_config(layout='wide')
